@@ -156,6 +156,17 @@ readRDS(here("data/rds/tmapa_buffers.RDS"))
 
 
 
+## {{< fa magnifying-glass >}} Análise inicial
+
+```{r}
+#| label: map-vinc
+
+readRDS(here("data/rds/map_stat_vinc.RDS"))
+```
+
+
+
+
 ## {{< fa heart >}} Obrigado!
 
 
