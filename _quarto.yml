@@ -1,5 +1,6 @@
 project:
   title: "labor-final"
+  output-dir: "output"
   
 lang: pt-BR
 
