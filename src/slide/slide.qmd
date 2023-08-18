@@ -1,0 +1,187 @@
+---
+title: "Transporte, habitação e emprego"
+subtitle: "Economia do Trabalho"
+author: "Arthur Bazolli Alvarenga"
+institute: "Economia do Trabalho I - PPGE/UFJF"
+date: 2023-08-18
+
+format: 
+  revealjs:
+    theme: solarized
+    #view-distance: 5
+
+execute: 
+  dev: png
+  fig-format: retina
+  fig-dpi: 700
+  cache: false
+
+editor: 
+  markdown: 
+    wrap: 72
+    
+logo: ufjf.png
+---
+
+```{r}
+#| label: setup
+#| echo: false
+
+library(here)
+library(tmap)
+library(tidyverse)
+```
+
+
+## {{< fa question >}} Motivação
+
+### O que move as cidades?
+
+* Na essência, cidades são mercados de trabalho...
+* ...mas não só isso. Vivemos nas cidades, comemos nas cidades, respiramos as cidades!
+* Deslocamento: **tradeoff** entre proximidade e custo de transporte.
+
+::: {style="text-align: center; color: #d33682"}
+Mesmo num mundo de *home office*, não somos indiferentes ao espaço.
+:::
+
+
+
+
+## {{< fa book >}} Fundamentação
+
+### Economias de aglomeração
+
+* Ganhos econômicos fruto da proximidade de pessoas e empresas.
+* Principais autores: @duranton2004, @baum-snow2015, @combes2015
+* Teoria: produtividade e salários se beneficiam de maior acessibilidade via transporte público
+
+
+
+
+## {{< fa subway >}} Evidências
+
+### Resultados mistos.
+
+::: {style="font-size: 0.7em"}
+Estudo|Região            |Intervenção     |Outcomes                       |Resultado             
+:-----|:-----------------|:---------------|:------------------------------|:--------------------
+1     |Charlotte, EUA    |VLT             |Emprego                        |Sem impacto
+2     |Estocolmo, Suécia |Trem urbano     |Emprego e salário              |Apenas para imigrantes
+3     |Berlim            |Muro            |Produtividade                  |Positivo e exponencial  
+4     |Rio de Janeiro    |VLT, BRT e metrô|Emprego, salário e novas firmas|Positivo, exponencial e **desigual**
+:::
+
+::: {style="font-size: 0.5em"}
+1. @canales2019
+2. @aslund2017
+3. @ahlfeldt2015
+4. @campos2019
+:::
+
+
+
+
+## {{< fa bullseye >}} Objetivo
+
+* Análisar o impacto da expansão do metrô de São Paulo sobre os salários, o emprego e novas empresas
+
+* Canais de transmissão
+  + *sharing*: difícil. Depende da política de repasse (*pass-through*) 
+  + *learning*: difuso. Proximidade $\rightarrow$ transbordamento de ideias $\rightarrow$ habilidades e inovação
+  + *match*: principal. $\uparrow$ Acessibilidade: $\downarrow$ fricção entre $L^s$ e $L^d$.
+
+
+
+## {{< fa database >}} Dados
+
+### RAIS
+
+* 2003-2018 
+* Ligar indivíduos e firmas
+  + Conjunto conectado, estilo AKM
+* Variáveis de interesse
+  + Salário/hora, nº de vínculos por firma, nº de empresas por região 
+* Controles 
+  + Gênero, etnia, idade, instrução, tempo de casa
+* CEP ou endereço
+
+### Outras fontes
+
+* Geolocalizar CEPs ou endereços: APIs do Google `{mapsapi}` e do OpenStreetMap `{osmdata}` via R
+* Raios concêntricos partindo das estações [@butts2021]
+* Firma $i$ em até 1,5km da estação $k$: selecionada
+
+
+
+
+## {{< fa calculator >}} Estratégia empírica
+
+::: {style="font-size: 0.8em"}
+### Contrafactual
+* Se a região $i$ não tivesse ganhado uma estação, como teriam evoluído os outcomes?
+* Contrafactual: regiões de **controle** devem ser **similares** às tratadas!
+  + Vale comparar uma avenida central com uma rua de bairro pouco movimentada?
+
+### Estimação
+
+* DiD escalonado de @callaway2021a
+  + Grupo de tratados varia no tempo
+  
+$$
+\begin{aligned}
+ATT(g,t) = \mathbb{E}[Y_t - Y_{g-1} | G = g, \mathbf{X}] - \mathbb{E}[Y_t - Y_{g-1}|D_t = 0, G \neq g, \mathbf{X}]
+\end{aligned}
+$$
+
+:::
+
+
+
+
+## {{< fa puzzle-piece >}} Desafios
+
+::: {style="text-align: center"}
+```{r}
+#| label: tmap-buffer
+#| out-width: 1000px
+#| out-height: 590px
+
+tmap_mode("view")
+tmap_options(check.and.fix = TRUE)
+readRDS(here("data/rds/tmapa_buffers.RDS"))
+```
+:::
+
+::: {style="text-align: center; color: #d33682; font-size: 0.75em"}
+*How to get away with SUTVA?* 
+:::
+
+
+
+
+
+## {{< fa chart-simple >}} Resultados esperados
+
+Minha terra tem metrôs onde canta o sabiá
+
+
+
+
+## {{< fa heart >}} Obrigado!
+
+
+#### Arthur Bazolli Alvarenga
+
+{{< fa paper-plane >}} <a href="mailto:arthur.bazolli@estudante.ufjf.br" style="font-size: 30px"> arthur.bazolli@estudante.ufjf.br</a>
+
+{{< fa link >}} <a href="https://baarthur.github.io/" style="font-size: 30px"> baarthur.github.io </a>
+
+{{< fa brands twitter >}} <a href="http://twitter.com/baarthur0" style="font-size: 30px"> \@baarthur0 </a>
+
+{{< fa brands github >}} <a href="http://github.com/baarthur" style="font-size: 30px"> \@baarthur </a>
+
+
+
+
+## {{< fa glasses >}} Referências

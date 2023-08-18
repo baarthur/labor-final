@@ -1,0 +1,8 @@
+project:
+  title: "labor-final"
+  
+lang: pt-BR
+
+#bibliography
+bibliography: src/yaml/bibliography.json
+csl: src/yaml/ipea.csl
