@@ -31,6 +31,24 @@ references:
   URL: https://www.econometricsociety.org/doi/10.3982/ECTA10876
   volume: '83'
 
+- id: ahlfeldt2018
+  author:
+    - family: Ahlfeldt
+      given: Gabriel
+    - family: Pietrostefani
+      given: Elisabetta
+    - family: Schumann
+      given: Abel
+    - family: Matsumoto
+      given: Tadashi
+  citation-key: ahlfeldt2018
+  DOI: https://doi.org/https://doi.org/10.1787/bbea8b78-en
+  issued:
+    - year: 2018
+  title: Demystifying compact urban growth
+  type: article-journal
+  URL: https://www.oecd-ilibrary.org/content/paper/bbea8b78-en
+
 - id: almeida2022
   abstract: >-
     In this paper we investigate the spatial extent of agglomeration economies
@@ -69,6 +87,24 @@ references:
     The spatial extent of human capital spillovers in a transition country:
     Evidence from Brazil
   type: paper-conference
+
+- id: alonso1964
+  author:
+    - family: Alonso
+      given: William
+  citation-key: alonso1964
+  event-place: Cambridge/Mass
+  ISBN: 978-0-674-53700-2
+  issued:
+    - year: 1964
+  language: eng
+  number-of-pages: '204'
+  publisher: Harvard Univ. Press
+  publisher-place: Cambridge/Mass
+  source: K10plus ISBN
+  title: 'Location and land use: toward a general theory of land rent'
+  title-short: Location and land use
+  type: book
 
 - id: angrist2009
   author:
@@ -182,6 +218,32 @@ references:
   URL: https://www.sciencedirect.com/science/article/pii/S0166046216300904
   volume: '67'
 
+- id: baum-snow2007
+  accessed:
+    - year: 2023
+      month: 6
+      day: 15
+  author:
+    - family: Baum-Snow
+      given: N.
+  citation-key: baum-snow2007
+  container-title: The Quarterly Journal of Economics
+  container-title-short: The Quarterly Journal of Economics
+  DOI: 10.1162/qjec.122.2.775
+  ISSN: 0033-5533, 1531-4650
+  issue: '2'
+  issued:
+    - year: 2007
+      month: 5
+      day: 1
+  language: en
+  page: 775-805
+  source: DOI.org (Crossref)
+  title: Did Highways Cause Suburbanization?
+  type: article-journal
+  URL: https://academic.oup.com/qje/article-lookup/doi/10.1162/qjec.122.2.775
+  volume: '122'
+
 - id: baum-snow2015
   accessed:
     - year: 2023
@@ -206,6 +268,28 @@ references:
   type: chapter
   URL: https://linkinghub.elsevier.com/retrieve/pii/B9780444595171000015
   volume: '5'
+
+- id: beesley1987
+  author:
+    - family: Beesley
+      given: Michael E.
+    - family: Kemp
+      given: Michael A.
+  citation-key: beesley1987
+  container-title: Handbook of regional and urban economics
+  edition: '1'
+  editor:
+    - family: Mills
+      given: E. S.
+  issued:
+    - year: 1987
+  page: 1023-1052
+  publisher: Elsevier
+  section: '26'
+  title: Urban transportation
+  type: chapter
+  URL: https://EconPapers.repec.org/RePEc:eee:regchp:2-26
+  volume: '2'
 
 - id: behrens2015
   accessed:
@@ -340,6 +424,27 @@ references:
   type: article-journal
   URL: https://www.sciencedirect.com/science/article/pii/S0166046211000500
   volume: '41'
+
+- id: brasil1987
+  abstract: >-
+    Altera dispositivos da Lei nº 7.418, de 16 de dezembro de 1985, que
+    instituiu o vale-transporte.
+  accessed:
+    - year: 2023
+      month: 9
+      day: 10
+  author:
+    - family: Brasil
+      given: ''
+  citation-key: brasil1987
+  issued:
+    - year: 1987
+      month: 9
+      day: 30
+  number: '7619'
+  title: Lei nº 7.619, de 30 de Setembro de 1987
+  type: bill
+  URL: http://www.planalto.gov.br/ccivil_03/leis/l7619.htm
 
 - id: brueckner1987
   accessed:
@@ -804,6 +909,22 @@ references:
   URL: https://doi.org/10.1080/01441647.2011.587908
   volume: '31'
 
+- id: christaller1966
+  author:
+    - family: Christaller
+      given: Walter
+    - family: Baskin
+      given: Carlisle W.
+  citation-key: christaller1966
+  event-place: Englewood Cliffs, N.J.
+  issued:
+    - year: 1966
+  language: eng
+  publisher: Prentice-Hall Englewood Cliffs, N.J.
+  publisher-place: Englewood Cliffs, N.J.
+  title: Central places in southern Germany
+  type: book
+
 - id: combes2015
   accessed:
     - year: 2023
@@ -903,6 +1024,62 @@ references:
   type: article-journal
   URL: https://onlinelibrary.wiley.com/doi/10.1111/gec3.12425
   volume: '13'
+
+- id: davanzo2011
+  author:
+    - family: Davanzo
+      given: Aurea Maria Queiroz
+    - family: Pires
+      given: Maria Conceição Silvério
+    - family: Negreiros
+      given: Rovena
+    - family: Santos
+      given: Sarah Maria Monteiro
+      dropping-particle: dos
+  citation-key: davanzo2011
+  container-title: 'Dinâmica urbano-regional: rede urbana e suas interfaces'
+  edition: '1'
+  event-place: Brasília
+  ISBN: 978-85-7811-081-9
+  issued:
+    - year: 2011
+  language: pt-BR
+  page: '486'
+  publisher: Ipea
+  publisher-place: Brasília
+  title: Metropolização e rede urbana
+  type: chapter
+
+- id: debok2011
+  accessed:
+    - year: 2023
+      month: 8
+      day: 24
+  author:
+    - family: Bok
+      given: Michiel
+      non-dropping-particle: de
+    - family: Oort
+      given: Frank
+      non-dropping-particle: van
+  citation-key: debok2011
+  container-title: Journal of Transport and Land Use
+  container-title-short: JTLU
+  DOI: 10.5198/jtlu.v4i1.144
+  ISSN: 1938-7849
+  issue: '1'
+  issued:
+    - year: 2011
+      month: 5
+      day: 11
+  page: '5'
+  source: DOI.org (Crossref)
+  title: >-
+    Agglomeration economies, accessibility and the spatial choice behavior of
+    relocating firms
+  type: article-journal
+  URL: https://www.jtlu.org/index.php/jtlu/article/view/144
+  volume: '4'
 
 - id: deng2013
   accessed:
@@ -1029,6 +1206,61 @@ references:
   URL: https://ideas.repec.org/h/eee/regchp/4-48.html
   volume: '4'
 
+- id: eberts1999
+  abstract: >-
+    This chapter reviews the theoretical and empirical literature on
+    agglomeration economies and urban public infrastructure. Theory links the
+    two concepts by positing that agglomeration economies exist when firms in an
+    urban area share a public good as an input to production. One type of
+    shareable input is the close proximity of businesses and labor, that
+    generates positive externalities which in turn lower the production cost of
+    one business as the output of other businesses increases. The externalities
+    result from businesses sharing nonexcludable inputs, such as a common labor
+    pool, technical expertise, general knowledge and personal contacts. Another
+    perhaps more tangible type of shareable input is urban public
+    infrastructure. Public capital stock, such as highways, water treatment
+    facilities, and communication systems, directly affect the efficient
+    operation of cities by facilitating business activities and improving worker
+    productivity. The literature has devoted considerable attention to both
+    topics, but not together. Studies of agglomeration economies in several
+    countries find that manufacturing firms are more productive in large cities
+    than in smaller ones. Studies of the effect of infrastructure on
+    productivity show positive, but in some cases statistically insignificant,
+    effects of public capital stock on productivity. Most of these studies are
+    at the national and state levels. Only a handful of studies have focused on
+    the metropolitan level, and even fewer have estimated agglomeration
+    economies and infrastructure effects simultaneously. Results from studies
+    that include both types of shared inputs suggest that both spatial proximity
+    and physical infrastructure contribute positively to the productivity of
+    firms in urban areas. More research is needed to explore the
+    interrelationships between urban size and urban public infrastructure and to
+    open the “black box” of agglomeration economies and estimate how the various
+    other factors associated with urban size affect productivity.
+  accessed:
+    - year: 2023
+      month: 8
+      day: 24
+  author:
+    - family: Eberts
+      given: Randall W.
+    - family: McMillen
+      given: Daniel P.
+  citation-key: eberts1999
+  collection-title: Applied Urban Economics
+  container-title: Handbook of Regional and Urban Economics
+  DOI: 10.1016/S1574-0080(99)80007-8
+  issued:
+    - year: 1999
+      month: 1
+      day: 1
+  page: 1455-1495
+  publisher: Elsevier
+  source: ScienceDirect
+  title: Agglomeration economies and urban public infrastructure
+  type: chapter
+  URL: https://www.sciencedirect.com/science/article/pii/S1574008099800078
+  volume: '3'
+
 - id: elshahawany2017
   accessed:
     - year: 2023
@@ -1061,6 +1293,34 @@ references:
   type: article-journal
   URL: https://www.tandfonline.com/doi/full/10.1080/17938120.2017.1366773
   volume: '9'
+
+- id: faissol1987
+  accessed:
+    - year: 2023
+      month: 9
+      day: 8
+  author:
+    - family: Faissol
+      given: Speridião
+    - family: Moreira
+      given: Lana Lima
+    - family: Fereira
+      given: Marilourdes Lopes
+  citation-key: faissol1987
+  container-title: Revista Brasileira de Geografia
+  issue: '2'
+  issued:
+    - year: 1987
+  language: pt-BR
+  page: 57-116
+  source: www.rbg.ibge.gov.br
+  title: >-
+    O Processo de urbanização brasileiro : uma contribuição à formulação de uma
+    política de desenvolvimento urbano/regional
+  title-short: O Processo de urbanização brasileiro
+  type: article-journal
+  URL: https://www.rbg.ibge.gov.br/index.php/rbg/article/view/957
+  volume: '49'
 
 - id: faria2017
   abstract: >-
@@ -1344,6 +1604,52 @@ references:
   URL: https://www.sciencedirect.com/science/article/pii/S0094119004001020
   volume: '57'
 
+- id: glaeser2004
+  abstract: >-
+    Cities can be thought of as the absence of physical space between people and
+    firms. As such, they exist to eliminate transportation costs for goods,
+    people and ideas and transportation technologies dictate urban form. In the
+    21st century, the dominant form of city living is based on the automobile
+    and this form is sometimes called sprawl. In this essay, we document that
+    sprawl is ubiquitous and that it is continuing to expand. Using a variety of
+    evidence, we argue that sprawl is not the result of explicit government
+    policies or bad urban planning, but rather the inexorable product of
+    car-based living. Sprawl has been associated with significant improvements
+    in quality of living, and the environmental impacts of sprawl have been
+    offset by technological change. Finally, we suggest that the primary social
+    problem associated with sprawl is the fact that some people are left behind
+    because they do not earn enough to afford the cars that this form of living
+    requires.
+  accessed:
+    - year: 2023
+      month: 8
+      day: 24
+  author:
+    - family: Glaeser
+      given: Edward L.
+    - family: Kahn
+      given: Matthew E.
+  citation-key: glaeser2004
+  collection-title: Cities and Geography
+  container-title: Handbook of Regional and Urban Economics
+  DOI: 10.1016/S1574-0080(04)80013-0
+  editor:
+    - family: Henderson
+      given: J. Vernon
+    - family: Thisse
+      given: Jacques-François
+  issued:
+    - year: 2004
+      month: 1
+      day: 1
+  page: 2481-2527
+  publisher: Elsevier
+  source: ScienceDirect
+  title: Sprawl and Urban Growth
+  type: chapter
+  URL: https://www.sciencedirect.com/science/article/pii/S1574008004800130
+  volume: '4'
+
 - id: glaeser2021
   abstract: >-
     "In Survival of the City, an urbanist and a public health expert join forces
@@ -1367,6 +1673,47 @@ references:
   title: 'The survival of the city: human flourishing in an age of isolation'
   title-short: The survival of the city
   type: book
+
+- id: gobillon2007
+  abstract: >-
+    The spatial mismatch hypothesis (SMH) argues that low-skilled minorities
+    residing in US inner cities experience poor labour market outcomes because
+    they are disconnected from suburban job opportunities. This assumption gave
+    rise to an abundant empirical literature, which is rather supportive of the
+    SMH. Surprisingly, it is only recently that theoretical models have emerged,
+    which probably explains why the mechanisms of spatial mismatch have long
+    remained unclear and not properly tested. This article presents relevant
+    facts, reviews the theoretical models of spatial mismatch, confronts their
+    predictions with available empirical results and indicates which mechanisms
+    deserve further empirical tests.
+  accessed:
+    - year: 2023
+      month: 8
+      day: 24
+  author:
+    - family: Gobillon
+      given: Laurent
+    - family: Selod
+      given: Harris
+    - family: Zenou
+      given: Yves
+  citation-key: gobillon2007
+  container-title: Urban Studies
+  DOI: 10.1080/00420980701540937
+  ISSN: 0042-0980
+  issue: '12'
+  issued:
+    - year: 2007
+      month: 11
+      day: 1
+  language: en
+  page: 2401-2427
+  publisher: SAGE Publications Ltd
+  source: SAGE Journals
+  title: The Mechanisms of Spatial Mismatch
+  type: article-journal
+  URL: https://doi.org/10.1080/00420980701540937
+  volume: '44'
 
 - id: gordon2015
   accessed:
@@ -1659,6 +2006,125 @@ references:
   URL: https://linkinghub.elsevier.com/retrieve/pii/B9780444595171000027
   volume: '5'
 
+- id: holzer2003
+  abstract: >-
+    A recent expansion of the San Francisco Bay Area's heavy rail system
+    represents an exogenous change in the accessibility of inner-city minority
+    communities to a concentrated suburban employment center. We evaluate this
+    natural experiment by conducting a two-wave longitudinal survey of firms,
+    with the first wave of interviews conducted immediately before the opening
+    of service, and the second wave approximately a year later. Within-firm
+    changes in the propensity to hire minority workers for firms near the
+    station were compared with those located farther away. Also estimated was
+    the effect of employer distance to the new stations on changes in propensity
+    to hire minorities. Results indicate a sizable increase in the hiring of
+    Latinos near the new stations, but little evidence of an effect on black
+    hiring rates. © 2003 by the Association for Public Policy Analysis and
+    Management.
+  accessed:
+    - year: 2023
+      month: 8
+      day: 24
+  author:
+    - family: Holzer
+      given: Harry J.
+    - family: Quigley
+      given: John M.
+    - family: Raphael
+      given: Steven
+  citation-key: holzer2003
+  container-title: Journal of Policy Analysis and Management
+  DOI: 10.1002/pam.10139
+  ISSN: 1520-6688
+  issue: '3'
+  issued:
+    - year: 2003
+  language: en
+  license: © 2003 by the Association for Public Policy Analysis and Management
+  page: 415-441
+  source: Wiley Online Library
+  title: >-
+    Public transit and the spatial distribution of minority employment: Evidence
+    from a natural experiment
+  title-short: Public transit and the spatial distribution of minority employment
+  type: article-journal
+  URL: https://onlinelibrary.wiley.com/doi/abs/10.1002/pam.10139
+  volume: '22'
+
+- id: ibge1954
+  accessed:
+    - year: 2023
+      month: 9
+      day: 8
+  author:
+    - family: IBGE
+      given: ''
+  citation-key: ibge1954
+  event-place: Rio de Janeiro
+  ISBN: '2408148400'
+  issued:
+    - year: 1954
+  language: pt-BR
+  number-of-pages: '414'
+  publisher: SERGRAF do IBGE
+  publisher-place: Rio de Janeiro
+  title: I Centenário das ferrovias brasileiras
+  type: book
+  URL: >-
+    https://biblioteca.ibge.gov.br/biblioteca-catalogo.html?id=281484&view=detalhes
+
+- id: instituto2002caracterização
+  author:
+    - family: Ipea
+      given: ''
+    - family: IBGE
+      given: ''
+    - family: Nesur/Unicamp
+      given: ''
+  citation-key: instituto2002caracterização
+  collection-title: Caracterização e tendências da rede urbana do Brasil
+  event-place: Brasília
+  ISBN: 978-85-86170-35-5
+  issued:
+    - year: 2002
+  publisher: Ipea
+  publisher-place: Brasília
+  title: >-
+    Caracterização e tendências da rede urbana do Brasil: Estudos básicos para a
+    caracterização da rede urbana
+  type: book
+  URL: https://books.google.com.br/books?id=ZiezAAAAIAAJ
+  volume: '2'
+
+- id: itdp2018
+  author:
+    - family: ITDP
+      given: ''
+  citation-key: itdp2018
+  edition: '4'
+  issued:
+    - year: 2018
+  language: en
+  number-of-pages: '1076'
+  source: Zotero
+  title: The BRT Planning Guide
+  type: book
+  URL: https://brtguide.itdp.org/branch/master/guide/pdf/the-brt-planning-guide.pdf
+
+- id: jacobs1969
+  author:
+    - family: Jacobs
+      given: J.
+  citation-key: jacobs1969
+  collection-title: A vintage book, V-584
+  ISBN: 978-0-394-42296-1
+  issued:
+    - year: 1969
+  publisher: Random House
+  title: The economy of cities
+  type: book
+  URL: https://books.google.com.br/books?id=GgyxAAAAIAAJ
+
 - id: knowles2016
   abstract: >-
     Transport plays a critical role in facilitating competitiveness in
@@ -1702,6 +2168,30 @@ references:
   type: article-journal
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0966692315001659
   volume: '54'
+
+- id: krugman1991
+  abstract: >-
+    This paper develops a simple model that shows how a country can endogenously
+    become differentiated into an industrialized "core" and an agricultural
+    "periphery." In order to realize scale economies while minimizing transport
+    costs, manufacturing firms tend to locate in the region with larger demand,
+    but the location of demand itself depends on the distribution of
+    manufacturing. Emergence of a core-periphery pattern depends on
+    transportations costs, economies of scale, and the share of manufacturing in
+    national income. Copyright 1991 by University of Chicago Press.
+  author:
+    - family: Krugman
+      given: Paul
+  citation-key: krugman1991
+  container-title: Journal of Political Economy
+  issue: '3'
+  issued:
+    - year: 1991
+  page: 483-99
+  title: Increasing returns and economic geography
+  type: article-journal
+  URL: https://EconPapers.repec.org/RePEc:ucp:jpolec:v:99:y:1991:i:3:p:483-99
+  volume: '99'
 
 - id: liao2020
   abstract: "Abstract\n            \n              Cities worldwide are pursuing policies to reduce car use and prioritise public transit (PT) as a means to tackle congestion, air pollution, and greenhouse gas emissions. The increase of PT ridership is constrained by many aspects; among them, travel time and the built environment are considered the most critical factors in the choice of travel mode. We propose a data fusion framework including real-time traffic data, transit data, and travel demand estimated using Twitter data to compare the travel time by car and PT in four cities (São Paulo, Brazil; Stockholm, Sweden; Sydney, Australia; and Amsterdam, the Netherlands) at high spatial and temporal resolutions. We use real-world data to make realistic estimates of travel time by car and by PT and compare their performance by time of day and by travel distance across cities. Our results suggest that using PT takes on average 1.4–2.6 times longer than driving a car. The share of area where travel time\_favours PT over car use is very small: 0.62% (0.65%), 0.44% (0.48%), 1.10% (1.22%) and 1.16% (1.19%) for the daily average (and during peak hours) for São Paulo, Sydney, Stockholm, and Amsterdam, respectively. The travel time disparity, as quantified by the travel time ratio\n              \n                \n                  $$R$$\n                  \n                    R\n                  \n                \n              \n              (PT travel time divided by the car travel time), varies widely during an average weekday, by location and time of day. A systematic comparison between these two modes shows that the average travel time disparity is surprisingly similar across cities:\n              \n                \n                  $$R < 1$$\n                  \n                    R\n                    <\n                    1\n                  \n                \n              \n              for travel distances less than 3 km, then increases rapidly but quickly stabilises at around 2. This study contributes to providing a more realistic performance evaluation that helps future studies further explore what city characteristics as well as urban and transport policies make public transport more attractive, and to create a more sustainable future for cities."
@@ -1757,6 +2247,34 @@ references:
   title: Principles of economics; an introductory volume
   type: book
   URL: https://search.library.wisc.edu/catalog/999933078602121
+
+- id: martine1989
+  accessed:
+    - year: 2023
+      month: 9
+      day: 9
+  author:
+    - family: Martine
+      given: George
+    - family: Camarano
+      given: Ana Amelia
+    - family: Neupert
+      given: Ricardo
+    - family: Beltrão
+      given: Kaiso
+  call-number: 711.4(81)-C172u
+  citation-key: martine1989
+  event-place: Brasília
+  genre: Discussion Paper
+  issued:
+    - year: 1989
+  language: pt-BR
+  publisher: Instituto de Pesquisa Econômica Aplicada (Ipea)
+  publisher-place: Brasília
+  title: 'A Urbanização no Brasil : retrospectiva, componentes e perspectivas'
+  type: report
+  URL: >-
+    https://biblioteca.ibge.gov.br/biblioteca-catalogo.html?id=221469&view=detalhes
 
 - id: matas2015a
   abstract: >-
@@ -1969,6 +2487,26 @@ references:
   title-short: Disrupting Mobility
   type: book
 
+- id: mills1972
+  author:
+    - family: Mills
+      given: Edwin S.
+  call-number: HT321 .M5
+  citation-key: mills1972
+  contributor:
+    - family: Resources for the Future
+      given: ''
+  event-place: Baltimore
+  ISBN: 978-0-8018-1367-2
+  issued:
+    - year: 1972
+  number-of-pages: '151'
+  publisher: Published for Resources for the Future by Johns Hopkins Press
+  publisher-place: Baltimore
+  source: Library of Congress ISBN
+  title: Studies in the structure of the urban economy
+  type: book
+
 - id: mobilidados2022
   accessed:
     - year: 2023
@@ -1986,6 +2524,97 @@ references:
   title: Mobilidados
   type: dataset
   URL: https://mobilidados.org.br/
+
+- id: motta1997
+  abstract: >-
+    O objetivo principal deste trabalho é traçar, de forma exploratória, um
+    panorama do desenvolvimento urbano brasileiro recente, considerando 
+    aspectos da dinâmica da rede urbana e da evolução dos principais problemas
+    intra-urbanos. Inicialmente, examina-se a evolução do sistema urbano,
+    contrapondo a década de 70 com o período 1980—1991. Em seguida, discutem-se
+    os principais desafios da política urbana nas grandes cidades, com ênfase em
+    instrumentos de gestão e desigualdades intra-urbanas a partir de indicadores
+    de pobreza, saneamento básico e moradia; e, finalmente, indicam-se
+    perspectivas e algumas considerações são feitas para a política urbana.
+  accessed:
+    - year: 2022
+      month: 10
+      day: 11
+  author:
+    - family: Motta
+      given: Diana Meirelles
+      dropping-particle: da
+    - family: Mueller
+      given: Charles Curt
+    - family: Torres
+      given: Marcelo de Oliveira
+  citation-key: motta1997
+  event-place: Brasília
+  genre: Discussion Paper
+  issued:
+    - year: 1997
+      month: 12
+  language: pt-BR
+  note: 'Accepted: 2014-01-10T16:55:38Z'
+  number: '530'
+  page: '46'
+  publisher: Instituto de Pesquisa Econômica Aplicada (Ipea)
+  publisher-place: Brasília
+  source: repositorio.ipea.gov.br
+  title: A dimensão urbana do desenvolvimento econômico-espacial brasileiro
+  type: report
+  URL: http://repositorio.ipea.gov.br/handle/11058/2389
+
+- id: muth1975
+  author:
+    - family: Muth
+      given: Richard F.
+  call-number: HT321 .M87
+  citation-key: muth1975
+  event-place: New York
+  ISBN: 978-0-06-044705-2
+  issued:
+    - year: 1975
+  number-of-pages: '402'
+  publisher: Harper & Row
+  publisher-place: New York
+  source: Library of Congress ISBN
+  title: Urban economic problems
+  type: book
+
+- id: nadalin2015
+  accessed:
+    - year: 2023
+      month: 9
+      day: 8
+  author:
+    - family: Nadalin
+      given: Vanessa
+    - family: Igliori
+      given: Danilo
+  citation-key: nadalin2015
+  container-title: EURE (Santiago)
+  DOI: 10.4067/S0250-71612015000400005
+  ISSN: 0250-7161
+  issue: '124'
+  issued:
+    - year: 2015
+      month: 9
+  page: 91-111
+  publisher: >-
+    Pontificia Universidad Católica de Chile. Facultad de Arquitectura, Diseño y
+    Estudios Urbanos. Instituto de Estudios Urbanos y Territoriales
+  source: SciELO
+  title: >-
+    Espraiamento urbano e periferização da pobreza na região metropolitana de
+    São Paulo: evidências empíricas
+  title-short: >-
+    Espraiamento urbano e periferização da pobreza na região metropolitana de
+    São Paulo
+  type: article-journal
+  URL: >-
+    http://www.scielo.cl/scielo.php?script=sci_abstract&pid=S0250-71612015000400005&lng=en&nrm=iso&tlng=en
+  volume: '41'
 
 - id: nakamura2021
   abstract: >-
@@ -2030,6 +2659,56 @@ references:
   type: article-journal
   URL: https://www.sciencedirect.com/science/article/pii/S1051137720300796
   volume: '51'
+
+- id: neumark2006
+  abstract: >-
+    Jobs are created by births of new businesses, expansions of existing ones,
+    and relocations of businesses into an economy. Conversely, jobs are
+    destroyed by deaths and contractions of existing businesses, and outward
+    relocations. To the extent that state and local policymakers directly
+    address job creation and job destruction, they focus to a large extent on
+    relocation -- engaging in efforts to attract new businesses to a state or
+    locality, and attempting to encourage existing businesses contemplating
+    leaving to stay. However, the empirical evidence underlying this focus on
+    relocation is virtually non-existent, as there has been no systematic
+    evidence on the role of business relocation in job creation and destruction.
+    This paper presents new evidence on the importance of each of these
+    processes -- births and deaths, expansions and contractions, and in- and
+    out-migration -- to employment growth (and decline). We use data from the
+    National Establishment Time Series for California. The evidence indicates
+    that births of new business establishments and especially new firms, and
+    expansions of existing ones, coupled with their counterparts of deaths and
+    contractions of existing establishments, are the prime determinants of
+    employment growth. In contrast to the high profile accorded it by
+    policymakers, business relocation plays a negligible role. The gross job
+    flows (both positive and negative) from births, deaths, expansions, and
+    contractions far outweigh those due to relocation. Moreover, in most years
+    the net difference between expansions and contractions of existing
+    businesses contribute by far the most to job growth.
+  accessed:
+    - year: 2023
+      month: 8
+      day: 23
+  archive: JSTOR
+  author:
+    - family: Neumark
+      given: David
+    - family: Zhang
+      given: Junfu
+    - family: Wall
+      given: Brandon
+  citation-key: neumark2006
+  container-title: Academy of Management Perspectives
+  ISSN: 15589080, 19434529
+  issue: '4'
+  issued:
+    - year: 2006
+  page: 79-94
+  publisher: Academy of Management
+  title: 'Where the Jobs Are: Business Dynamics and Employment Growth'
+  type: article-journal
+  URL: http://www.jstor.org/stable/4166272
+  volume: '20'
 
 - id: neumark2015
   accessed:
@@ -2176,6 +2855,30 @@ references:
   title-short: Exploring Accessibility to Employment Opportunities in African Cities
   type: article
   URL: https://papers.ssrn.com/abstract=3434753
+
+- id: pereira2011
+  call-number: HT384.B6 D56 2011
+  citation-key: pereira2011
+  editor:
+    - family: Pereira
+      given: Rafael Henrique Moraes
+    - family: Furtado
+      given: Bernardo Alves
+    - family: Oliveira Júnior
+      given: Adilson Pereira
+      dropping-particle: de
+  event-place: Brasília
+  ISBN: 978-85-7811-081-9
+  issued:
+    - year: 2011
+  note: 'OCLC: ocn741518522'
+  number-of-pages: '486'
+  publisher: IPEA
+  publisher-place: Brasília
+  source: Library of Congress ISBN
+  title: 'Dinâmica urbano-regional: rede urbana e suas interfaces'
+  title-short: Dinâmica urbano-regional
+  type: book
 
 - id: pereira2013
   accessed:
@@ -2627,6 +3330,27 @@ references:
   type: article
   URL: https://papers.ssrn.com/abstract=3178460
 
+- id: silva1954
+  accessed:
+    - year: 2023
+      month: 9
+      day: 8
+  author:
+    - family: Silva
+      given: Moacir M. F.
+  citation-key: silva1954
+  container-title: Revista Brasileira de Geografia
+  issue: '2'
+  issued:
+    - year: 1954
+  language: pt-BR
+  page: 254-266
+  source: www.rbg.ibge.gov.br
+  title: Um Guia ferroviário brasileiro do fim do século XIX
+  type: article-journal
+  URL: https://www.rbg.ibge.gov.br/index.php/rbg/article/view/1861
+  volume: '16'
+
 - id: silva2021a
   author:
     - family: Silva
@@ -2642,9 +3366,26 @@ references:
   publisher-place: Curitiba
   source: Zotero
   title: >-
-    DOIS ENSAIOS EMPÍRICOS SOBRE SPATIAL MISMATCH PARA A REGIÃO METROPOLITANA DE
-    CURITIBA
+    Dois ensaios empíricos sobre spatial mismatch para a Região Metropolitana de
+    Curitiba
   type: thesis
+
+- id: telles2011
+  author:
+    - family: Telles
+      given: Pedro Carlos da Silva
+  call-number: HE2928 .T45 2011
+  citation-key: telles2011
+  event-place: Rio de Janeiro
+  ISBN: 978-85-64211-00-1
+  issued:
+    - year: 2011
+  number-of-pages: '299'
+  publisher: Notícia & Cia
+  publisher-place: Rio de Janeiro
+  source: Library of Congress ISBN
+  title: História da engenharia ferroviária no Brasil
+  type: book
 
 - id: thunen1910
   accessed:
@@ -2980,6 +3721,44 @@ references:
   type: article-journal
   URL: https://www.mdpi.com/2071-1050/11/2/364
   volume: '11'
+
+- id: white1999
+  abstract: >-
+    This chapter discusses theoretical and applied research in urban economics
+    on decentralized cities, i.e., cities in which employment is not restricted
+    to the central business district. The first section discusses informally the
+    incentives that firms face to suburbanize. The next section summarizes the
+    theoretical literature on decentralized cities, including both models which
+    solve for the optimal spatial pattern of employment and models in which the
+    spatial pattern of employment is exogenously determined. In other sections,
+    I discuss rent and wage gradients in decentralized cities and review the
+    empirical literature testing whether, or not, wage gradients exist in urban
+    areas. A section covers the question of whether people follow jobs or jobs
+    follow people to the suburbs and the last section discusses the “wasteful”
+    commuting controversy.
+  accessed:
+    - year: 2023
+      month: 8
+      day: 23
+  author:
+    - family: White
+      given: Michelle J.
+  citation-key: white1999
+  collection-title: Applied Urban Economics
+  container-title: Handbook of Regional and Urban Economics
+  DOI: 10.1016/S1574-0080(99)80005-4
+  issued:
+    - year: 1999
+      month: 1
+      day: 1
+  page: 1375-1412
+  publisher: Elsevier
+  source: ScienceDirect
+  title: 'Urban areas with decentralized employment: Theory and empirical work'
+  title-short: Chapter 36 Urban areas with decentralized employment
+  type: chapter
+  URL: https://www.sciencedirect.com/science/article/pii/S1574008099800054
+  volume: '3'
 
 - id: worldbank
   author:

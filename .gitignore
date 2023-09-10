@@ -49,3 +49,12 @@ po/*~
 rsconnect/
 
 /.quarto/
+
+# macos things
+.DS_Store
+
+# data sources
+data/*
+
+# code (for now)
+src/code/*

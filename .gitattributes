@@ -2,7 +2,7 @@
 
 # Source files
 # ============
-*.qmd   text
+*.qmd   linguist-detectable
 *.Rdata binary
 *.RData binary
 *.rda   binary
@@ -10,10 +10,9 @@
 *.rds   binary
 *.Rd    text
 *.Rdx   binary
-*.Rmd	  text
 *.R  	  text
 *.Rproj text
-*.[Rr]md   linguist-detectable
+*.[Rr]md linguist-detectable
 
 # Linguist detectability
 # ============
